@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://3.111.33.75:9980/apptechnologies/repository/snapchat-release/</url>
+	      <url>http://13.127.141.83:9980/apptechnologies/repository/snapchat-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.111.33.75:9980/apptechnologies/repository/snapchat-snapshot/</url>
+	      <url>http://13.127.141.83:9980/apptechnologies/repository/snapchat-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
