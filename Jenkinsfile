@@ -24,7 +24,7 @@ def sendSlackNotifications(String buildStatus = 'STARTED') {
   slackSend (color: colorCode, message: summary)
 }
 
-node{
+node('slaves'){
 
 def mavenHome = tool name: 'maven 3.8.5'
 
