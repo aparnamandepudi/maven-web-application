@@ -38,7 +38,7 @@ git branch: 'development', url: 'https://github.com/aparnamandepudi/maven-web-ap
 stage('Build'){
 sh "${mavenHome}/bin/mvn clean package"
 }
-
+/*
 //Execute the SonarQube report
 stage('Execute sonarqube report'){
 sh "${mavenHome}/bin/mvn sonar:sonar"
@@ -56,6 +56,7 @@ sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@13
 }
 
 }
+*/
 }
   catch(e){
         currentBuild.result = "FAILED"
