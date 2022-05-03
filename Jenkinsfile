@@ -29,7 +29,7 @@ node{
 def mavenHome = tool name: 'maven 3.8.5'
 
 try{
- sendSlackNotifications('STARTED')
+ //sendSlackNotifications('STARTED')
 //Get the code from githb repo
 stage('CheckoutCode'){
 git branch: 'development', url: 'https://github.com/aparnamandepudi/maven-web-application.git'
